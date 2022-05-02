@@ -933,7 +933,7 @@ if Text == 'EndAddarray'..user_id then
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 if redis:get(bot_id..'Set:array'..user_id..':'..chat_id) == 'true1' then
@@ -951,7 +951,7 @@ return false
 end   
 reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 if tonumber(infomsg[2]) == 1 then
@@ -1000,7 +1000,7 @@ reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = "ᴘʀᴏᴛᴇᴄᴛɪᴏɴ¹" ,data="Amr_"..data.sender_user_id.."_1"},{text = "ѕᴇᴛᴛɪɴɢѕ²",data="Amr_"..data.sender_user_id.."_2"}},
 {{text = "ᴏᴘᴇɴ /ᴄʟᴏѕᴇ³",data="Amr_"..data.sender_user_id.."_3"},{text ="ᴏᴛʜᴇʀѕ⁴",data="Amr_"..data.sender_user_id.."_4"}},
-{{text = '𝖲𝗈𝗎𝗋𝖼𝖾 yousef.',url="t.me/yousef_lbban1"}},
+{{text = '𝖲𝗈𝗎𝗋𝖼𝖾 yousef.',url="t.me/yousef_labban1"}},
 }
 }
 t = "*🇸🇦︙قائمة الاوامر \n *ٴ─━─━─━─×─━─━─━─ *\n🇸🇦︙م1 ( اوامر الحماية ) \n🇸🇦︙م2 ( اوامر إعدادات المجموعة ) \n🇸🇦︙م3 ( اوامر القفل والفتح ) \n🇸🇦︙م4 ( اوامر اخرى ) *"
@@ -1182,7 +1182,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*🇸🇦︙اهلا بك في قائمة الاوامر : العللامة ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1308,7 +1308,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1344,7 +1344,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1398,7 +1398,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1434,7 +1434,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1479,7 +1479,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*🇸🇦︙اهلا بك في قائمة الاوامر : العللامة ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1506,7 +1506,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*🇸🇦︙اهلا بك في قائمة الاوامر : العللامة ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1533,7 +1533,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*🇸🇦︙اهلا بك في قائمة الاوامر : العللامة ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1560,7 +1560,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*🇸🇦︙اهلا بك في قائمة الاوامر : العللامة ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1587,7 +1587,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*🇸🇦︙اهلا بك في قائمة الاوامر : العللامة ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*", 'md', true, false, reply_dev)
@@ -1647,7 +1647,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 return bot.editMessageText(chat_id,msg_id,'*🇸🇦︙العدد الكلي ( '..#list..' )\n🇸🇦︙تم العثور على ( '..x..' ) من المشتركين الوهميين*', 'md', true, false, reply_dev)
@@ -1699,7 +1699,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 return bot.editMessageText(chat_id,msg_id,'*🇸🇦︙العدد الكلي ( '..#list..' )\n🇸🇦︙تم العثور على ( '..x..' ) من المجموعات الوهمية*', 'md', true, false, reply_dev)
@@ -1940,7 +1940,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 redis:del(bot_id..":set:"..msg.chat_id..":start") 
@@ -1967,7 +1967,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"*🇸🇦︙اهلا بك في قائمة الاوامر : العللامة ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس*","md", true, false, false, false, reply_dev)
@@ -1990,7 +1990,7 @@ type = 'inline',data = {
 {{text = '🇸🇦 المكتومين عام',data="lsmu"},{text ="🇸🇦 المحظورين عام",data="lsbnal"}},
 {{text = '🇸🇦 جلب نسخه احتياطية',data="GetfJson"},{text = '🇸🇦 رفع نسخه احتياطية',data="UpfJson"}},
                 {{text = '🇸🇦 تحديث',data="UpBot"},{text = '🇸🇦 تحديث السورس',data="UpSu"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 })
 end 
@@ -2008,7 +2008,7 @@ redis:sadd(bot_id..":user_id",msg.sender.user_id)
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = '🇸🇦 اضفني الى مجموعتك',url="https://t.me/"..bot.getMe().username.."?startgroup=new"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 if redis:get(bot_id..":start") then
@@ -2887,7 +2887,7 @@ reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = "ᴘʀᴏᴛᴇᴄᴛɪᴏɴ¹" ,data="Amr_"..msg.sender.user_id.."_1"},{text = "ѕᴇᴛᴛɪɴɢѕ²",data="Amr_"..msg.sender.user_id.."_2"}},
 {{text = "ᴏᴘᴇɴ /ᴄʟᴏѕᴇ³",data="Amr_"..msg.sender.user_id.."_3"},{text ="ᴏᴛʜᴇʀѕ⁴",data="Amr_"..msg.sender.user_id.."_4"}},
-{{text = '𝖲𝗈𝗎𝗋𝖼𝖾 yousef.',url="t.me/yousef_lbban1"}},
+{{text = '𝖲𝗈𝗎𝗋𝖼𝖾 yousef.',url="t.me/yousef_labban1"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"*🇸🇦︙قائمة الاوامر\n *ٴ─━─━─━─×─━─━─━─ *\n🇸🇦︙م1 ( اوامر الحماية \n🇸🇦︙م2 ( اوامر إعدادات المجموعة )\n🇸🇦︙م3 ( اوامر القفل والفتح )\n🇸🇦︙م4 ( اوامر اخرى )*","md", true, false, false, false, reply_markup)
@@ -3544,9 +3544,9 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = '🇸🇦 Telegram ',url="https://my.telegram.org/auth?to=delete"},{text = '🇸🇦 instagram ',url="https://www.instagram.com/accounts/login/?next=/accounts/remove/request/permanent/"}},
 {{text = '🇸🇦 Facebook ',url="https://www.facebook.com/help/deleteaccount"},{text = '🇸🇦 Snspchat ',url="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fdeleteaccount"}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ',url="t.me/yousef_labban1"}},
 }
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/yousef_lbban1&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/yousef_labban1&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == "الساعة" then
 bot.sendText(msg.chat_id,msg.id,"*🇸🇦︙الساعة الان : ( "..os.date("%I:%M%p").." )*","md",true)  
@@ -3662,7 +3662,7 @@ bot.sendText(msg.chat_id,msg.id,"*🇸🇦︙الاسم : *( "..(t).." *)*\n*�
 end
 end
 if text == 'مبرمج السورس' or text == 'مطور السورس' then
-local UserId_Info = bot.searchPublicChat("yousef_lbban")
+local UserId_Info = bot.searchPublicChat("yousef_labban")
 if UserId_Info.id then
 local UserInfo = bot.getUser(UserId_Info.id)
 if UserInfo.username and UserInfo.username ~= "" then
@@ -4029,7 +4029,7 @@ data = {
 {{text="🦖 Dragon Game 🦖",url='https://t.me/T4TTTTBOT?game=dragon'},{text="🐍 3D Snake Game 🐍",url='https://t.me/T4TTTTBOT?game=snake'}},
 {{text="🔵 Color Game 🔴",url='https://t.me/T4TTTTBOT?game=color'}},
 {{text="🚀 Rocket Game 🚀",url='https://t.me/T4TTTTBOT?game=rocket'},{text="🏹 Arrow Game 🏹",url='https://t.me/T4TTTTBOT?game=arrow'}},
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,'*🇸🇦︙قائمة الالعاب الاحترافية اضغط للعب*',"md", true, false, false, false, reply_markup)
@@ -7833,7 +7833,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_lbban1"}
+{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_labban1"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7848,7 +7848,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_lbban1"}
+{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_labban1"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7863,7 +7863,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_lbban1"}
+{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_labban1"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7878,7 +7878,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_lbban1"}
+{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_labban1"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7893,7 +7893,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_lbban1"}
+{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_labban1"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7908,7 +7908,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_lbban1"}
+{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_labban1"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7923,7 +7923,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_lbban1"}
+{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_labban1"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7938,7 +7938,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_lbban1"}
+{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef ', url="t.me/yousef_labban1"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7950,14 +7950,14 @@ end
 ----------------------------------------------------------------------------------------------------
 -- نهايه التفعيل
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then 
-local Text = "*ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄᴇ yousef\n\n*[🇸🇦  yousef ᴄʜᴀɴɴᴇʟ](http://t.me/yousef_lbban1)*\n\n*[🇸🇦  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/yousef_lbban1)*\n\n*[🇸🇦  yousef ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/yousef_lbban)*\n\n*[🇸🇦  ʙᴏᴛ yousef](http://t.me/yousef_lbban1)*\n*"
+local Text = "*ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄᴇ yousef\n\n*[🇸🇦  yousef ᴄʜᴀɴɴᴇʟ](http://t.me/yousef_labban1)*\n\n*[🇸🇦  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/yousef_labban1)*\n\n*[🇸🇦  yousef ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/yousef_labban)*\n\n*[🇸🇦  ʙᴏᴛ yousef](http://t.me/yousef_labban1)*\n*"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝖲𝗈𝗎𝗋𝖼𝖾 yousef ',url="t.me/yousef_lbban1"}
+{text = '𝖲𝗈𝗎𝗋𝖼𝖾 yousef ',url="t.me/yousef_labban1"}
 },
 }
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/yousef_lbban1&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/yousef_labban1&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 ----------------------------------------------------------------------------------------------------
 if text == 'تفعيل' then
@@ -7986,7 +7986,7 @@ Info_Chats = bot.getSupergroupFullInfo(msg.chat_id)
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
-{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_lbban1"}},
+{{text = '🇸🇦 𝖲𝗈𝗎𝗋𝖼𝖾 yousef',url="t.me/yousef_labban1"}},
 }
 }
 UserInfo = bot.getUser(msg.sender.user_id).first_name

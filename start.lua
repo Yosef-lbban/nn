@@ -20,7 +20,7 @@ local infofile = io.open("./sudo.lua","r")
 if not infofile then
 if not redis:get(Server_Done.."token") then
 os.execute('sudo rm -rf setup.lua')
-io.write('\27[1;31mSend your Bot Token Now\n\27[0;39;49m')
+io.write('\27[1;31mSend your Bot Token Now ارسل تكون البوت\n\27[0;39;49m')
 local TokenBot = io.read()
 if TokenBot and TokenBot:match('(%d+):(.*)') then
 local url , res = https.request("https://api.telegram.org/bot"..TokenBot.."/getMe")
@@ -39,7 +39,7 @@ end
 os.execute('lua5.3 start.lua')
 end
 if not redis:get(Server_Done.."id") then
-io.write('\27[1;31mSend Developer ID\n\27[0;39;49m')
+io.write('\27[1;31mSend Developer ID ارسل رقم الأيدي\n\27[0;39;49m')
 local UserId = io.read()
 if UserId and UserId:match('%d+') then
 io.write('\n\27[1;34mDeveloper ID saved \n\n\27[0;39;49m')

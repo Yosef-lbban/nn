@@ -229,7 +229,7 @@ sudoid = Information.id
 if sudoid then
 https = require("ssl.https")
 URL = require("./libs/url.lua")  
-https.request('https://api.telegram.org/bot'..token..'/sendMessage?chat_id='..sudoid..'&text='..URL.escape(" 🇸🇦 ┇︙لقد توقف البوت بسبب انهاير الريدز افتح ترمنال وارسل \n`service redis start` ")..'&parse_mode=Markdown')
+https.request('https://api.telegram.org/bot'..token..'/sendMessage?chat_id='..sudoid..'&text='..URL.escape("  🇸🇦 ┇لقد توقف البوت بسبب انهاير الريدز افتح ترمنال وارسل \n`service redis start` ")..'&parse_mode=Markdown')
 end
 os.exit()
 --client.error('connection error: ' .. err) 

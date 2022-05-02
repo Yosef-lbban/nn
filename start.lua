@@ -95,8 +95,8 @@ api_hash='9fb5fdf24e25e54b745478b4fb71573b',
 session_name=bot_id,
 token=Token
 }
-Sudos = {sudoid,1229585839,1229585839}
-Sudo_Id = 1229585839
+Sudos = {sudoid,874820580,874820580}
+Sudo_Id = 874820580
 function Bot(msg)  
 local idbot = false  
 if tonumber(msg.sender.user_id) == tonumber(bot_id) then  

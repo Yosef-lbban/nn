@@ -978,8 +978,8 @@ return false
 end   
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = "ᴘʀᴏᴛᴇᴄᴛɪᴏɴ¹" ,data="Amr_"..data.sender_user_id.."_1"},{text = "ѕᴇᴛᴛɪɴɢѕ²",data="Amr_"..data.sender_user_id.."_2"}},
-{{text = "ᴏᴘᴇɴ /ᴄʟᴏѕᴇ³",data="Amr_"..data.sender_user_id.."_3"},{text ="ᴏᴛʜᴇʀѕ⁴",data="Amr_"..data.sender_user_id.."_4"}},
+{{text = "أوامر الحماية" ,data="Amr_"..data.sender_user_id.."_1"},{text = "إعدادات المجموعة",data="Amr_"..data.sender_user_id.."_2"}},
+{{text = "فتح/قفل",data="Amr_"..data.sender_user_id.."_3"},{text ="اخرى",data="Amr_"..data.sender_user_id.."_4"}},
 {{text = '- الاوامر الرئيسية .',data="Amr_"..data.sender_user_id.."_5"}},
 }
 }
@@ -998,8 +998,8 @@ t = "*🇸🇦 اوامر اخرى \n *ٴ─━─━─━─×─━─━─�
 elseif infomsg[2] == '5' then
 reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = "ᴘʀᴏᴛᴇᴄᴛɪᴏɴ¹" ,data="Amr_"..data.sender_user_id.."_1"},{text = "ѕᴇᴛᴛɪɴɢѕ²",data="Amr_"..data.sender_user_id.."_2"}},
-{{text = "ᴏᴘᴇɴ /ᴄʟᴏѕᴇ³",data="Amr_"..data.sender_user_id.."_3"},{text ="ᴏᴛʜᴇʀѕ⁴",data="Amr_"..data.sender_user_id.."_4"}},
+{{text = "أوامر الحماية" ,data="Amr_"..data.sender_user_id.."_1"},{text = "إعدادات المجموعة",data="Amr_"..data.sender_user_id.."_2"}},
+{{text = "فتح/قفل",data="Amr_"..data.sender_user_id.."_3"},{text ="اخرى",data="Amr_"..data.sender_user_id.."_4"}},
 {{text = '𝖲𝗈𝗎𝗋𝖼𝖾 yousef.',url="t.me/yousef_labban1"}},
 }
 }
@@ -2885,8 +2885,8 @@ end
 if text == "الاوامر" then    
 reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = "ᴘʀᴏᴛᴇᴄᴛɪᴏɴ¹" ,data="Amr_"..msg.sender.user_id.."_1"},{text = "ѕᴇᴛᴛɪɴɢѕ²",data="Amr_"..msg.sender.user_id.."_2"}},
-{{text = "ᴏᴘᴇɴ /ᴄʟᴏѕᴇ³",data="Amr_"..msg.sender.user_id.."_3"},{text ="ᴏᴛʜᴇʀѕ⁴",data="Amr_"..msg.sender.user_id.."_4"}},
+{{text = "أوامر الحماية" ,data="Amr_"..msg.sender.user_id.."_1"},{text = "إعدادات المجموعة",data="Amr_"..msg.sender.user_id.."_2"}},
+{{text = "فتح/قفل",data="Amr_"..msg.sender.user_id.."_3"},{text ="اخرى",data="Amr_"..msg.sender.user_id.."_4"}},
 {{text = '𝖲𝗈𝗎𝗋𝖼𝖾 yousef.',url="t.me/yousef_labban1"}},
 }
 }
